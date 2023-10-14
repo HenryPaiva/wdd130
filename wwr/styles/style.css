@@ -1,5 +1,7 @@
 body {
     background-color: #fcfbfb;
+    margin: 0;
+    padding: 0;
 }
 
 #content{
@@ -7,6 +9,7 @@ body {
     margin: 0 auto;
 }
 header {
+    font-family: roboto, verdana, sans-serif;
     background-color: #134266;
 }
 #hero-img{
@@ -15,10 +18,15 @@ header {
 
 nav a{
     text-align: center;
+    padding: 35px;
     color: rgb(71, 69, 69);
     text-decoration: none
+    
 }
 .home-title{
+    font-family: roboto, verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
     color: rgb(71, 69, 69);
 
 }
@@ -29,6 +37,10 @@ nav a:hover {
     background-color: black;
 }
 .book, .join{
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
    background-color: #7dc4d5;
    color: rgb(71, 69, 69);
    text-decoration: none;
@@ -52,15 +64,22 @@ main section{
     background-color: #476a87;
 }
 .msg{
+    padding: 35px;
     background-color: #537a92;
 }
 .msg h2{
+    font-family: roboto, verdana, sans-serif;
+    margin: 0;
     color:#7dc4d5;
 }
 .msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
     color:rgb(71, 69, 69) ;
 }
 footer{
+    padding: 25px 50px;
+    margin-top: 200px;
     background-color:#78c5d7;
 }
 footer a{
@@ -77,6 +96,24 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+footer.socialimg{
+    padding-top: 15px;
+
+}
 .icon{
+    padding-top: 10px;
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+
+
+.card-img{
+    border: 10px solid #d9c2a3;
+    margin: 200px 0;
+}
+
+main section img{
+    box-sizing:border-box;
 }

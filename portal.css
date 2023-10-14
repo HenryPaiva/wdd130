@@ -1,6 +1,8 @@
-*{ 
+@import
+
+/* *{  */
    /* border: 1px solid red;*/
-}
+/* } */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
 
 body{
@@ -11,6 +13,7 @@ body{
 }
 
 #content{
+    font-family: roboto, verdana, sans-serif;
     background-color: white;
     max-width: 1600px;
     margin: 0 auto;
